@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/base_javaee/base_javaee.iml" filepath="$PROJECT_DIR$/base_javaee/base_javaee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base_javase/base_javase.iml" filepath="$PROJECT_DIR$/base_javase/base_javase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base_javaweb/base_javaweb.iml" filepath="$PROJECT_DIR$/base_javaweb/base_javaweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/my-learn.iml" filepath="$PROJECT_DIR$/.idea/my-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_dependences/my_dependences.iml" filepath="$PROJECT_DIR$/my_dependences/my_dependences.iml" />
+    </modules>
+  </component>
+</project>
