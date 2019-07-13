@@ -11,6 +11,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>base_javaee</artifactId>
+    <description>JavaEE相关的学习</description>
+
 
 
 </project>

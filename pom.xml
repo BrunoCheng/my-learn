@@ -18,6 +18,7 @@
         <module>base_javaweb</module>
         <module>base_javaee</module>
         <module>my_dependences</module>
+        <module>upgrade-concurrent</module>
     </modules>
 
 

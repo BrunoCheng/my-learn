@@ -12,7 +12,6 @@
 
     <artifactId>base_javaweb</artifactId>
     <packaging>war</packaging>
-
-    <name>base_javaweb</name>
+    <description>一个简答的JavaWeb项目</description>
 
 </project>

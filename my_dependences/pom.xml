@@ -233,7 +233,7 @@
         </pluginManagement>
 
         <plugins>
-            <!-- Compiler 插件, 设定 JDK 版本 -->
+            <!-- Compiler 插件, 设定 JDK 版本 ,同时idea不会报错-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>

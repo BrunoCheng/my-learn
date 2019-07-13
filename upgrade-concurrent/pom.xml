@@ -10,19 +10,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>base_javase</artifactId>
-    <description>JavaSE相关的学习</description>
+    <artifactId>upgrade-concurrent</artifactId>
+    <packaging>jar</packaging>
+    <description>并发编程进阶</description>
 
-    <dependencies>
-        <!-- Person Begin -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-test</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-        </dependency>
-        <!-- Person Begin -->
-    </dependencies>
+
 </project>

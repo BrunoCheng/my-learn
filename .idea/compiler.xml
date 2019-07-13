@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="base_javaee" />
+        <module name="upgrade-concurrent" />
         <module name="base_javaweb" />
         <module name="base_javase" />
       </profile>
@@ -17,6 +18,7 @@
       <module name="base_javaweb" target="1.8" />
       <module name="my-learn" target="1.5" />
       <module name="my_dependences" target="1.8" />
+      <module name="upgrade-concurrent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
