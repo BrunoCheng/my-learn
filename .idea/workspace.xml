@@ -1,52 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="984415b1-6c0a-4917-82a0-b9f927f10eb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_17_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L1Java概述/HelloJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L1Java概述/面向对象的三大特征.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L2基础语法/L2_1关键字.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L2基础语法/L2_5流程控制/L2_5循环控制/三大循环结构.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L2基础语法/L2_5流程控制/L2_5循环控制/九九乘法表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L2基础语法/L2_5流程控制/SwitchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L2基础语法/标识符和命名规范.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L3数组/数组初始化.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L3数组/数组概述.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upgrade-concurrent/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThreadByCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThreadByRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThreadByThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/OnlyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upgrade-concurrent/upgrade-concurrent.iml" afterDir="false" />
+    <list default="true" id="90f6a64d-fa24-42fb-bcdd-b69071f9c05c" name="Default Changelist" comment="1111">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_commons/my_commons.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_commons/src/main/java/com/suixin/commons/utils/SleepTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_commons/target/classes/com/suixin/commons/utils/SleepTools.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/DaemonThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/EndRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/EndThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/HasInterrputException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/SynClzAndInst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/启动和终止线程/DaemonThread$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/启动和终止线程/DaemonThread$UseThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/启动和终止线程/DaemonThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/启动和终止线程/EndRunnable$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/启动和终止线程/EndRunnable$UseRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/启动和终止线程/EndRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/启动和终止线程/EndThread$UseThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/启动和终止线程/EndThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/启动和终止线程/HasInterrputException$UseThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/启动和终止线程/HasInterrputException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/启动和终止线程/NewThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/启动和终止线程/NewThreadByCallable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/启动和终止线程/NewThreadByRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/启动和终止线程/NewThreadByThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/启动和终止线程/OnlyMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/启动和终止线程/SynClzAndInst$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/启动和终止线程/SynClzAndInst$Instance2Syn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/启动和终止线程/SynClzAndInst$InstanceSyn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/启动和终止线程/SynClzAndInst$SynClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/启动和终止线程/SynClzAndInst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/启动和终止线程/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/base_javaweb_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/base_javaweb_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_17_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_17_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my-learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my-learn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_javaee/base_javaee.iml" beforeDir="false" afterPath="$PROJECT_DIR$/base_javaee/base_javaee.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_javaee/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base_javaee/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_javase/base_javase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/base_javase/base_javase.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_javase/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base_javase/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_javaweb/base_javaweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/base_javaweb/base_javaweb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_javaweb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base_javaweb/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_dependences/my_dependences.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my_dependences/my_dependences.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_dependences/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my_dependences/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/my-learn.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_javaee/base_javaee.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_javase/base_javase.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_javase/target/classes/META-INF/base_javase.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_javase/target/classes/com/suixin/mylearn/L1Java概述/HelloJava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_javase/target/classes/com/suixin/mylearn/L1Java概述/面向对象的三大特征.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_javase/target/classes/com/suixin/mylearn/L2基础语法/L2_1关键字.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_javase/target/classes/com/suixin/mylearn/L2基础语法/L2_5流程控制/L2_5循环控制/三大循环结构.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_javase/target/classes/com/suixin/mylearn/L2基础语法/L2_5流程控制/L2_5循环控制/九九乘法表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_javase/target/classes/com/suixin/mylearn/L2基础语法/L2_5流程控制/SwitchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_javase/target/classes/com/suixin/mylearn/L2基础语法/标识符和命名规范.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_javase/target/classes/com/suixin/mylearn/L3数组/数组初始化.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_javase/target/classes/com/suixin/mylearn/L3数组/数组概述.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_javaweb/base_javaweb.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_dependences/my_dependences.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upgrade-concurrent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/upgrade_concurrent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThreadByCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThreadByCallable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThreadByRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThreadByRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThreadByThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThreadByThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/OnlyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/OnlyMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upgrade-concurrent/target/classes/com/suixin/ch1/OnlyMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upgrade-concurrent/upgrade-concurrent.iml" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/my_dependences/target/" />
+    <ignored path="$PROJECT_DIR$/base_javaee/target/" />
+    <ignored path="$PROJECT_DIR$/upgrade-concurrent/target/" />
     <ignored path="$PROJECT_DIR$/base_javase/target/" />
     <ignored path="$PROJECT_DIR$/base_javaweb/target/" />
-    <ignored path="$PROJECT_DIR$/base_javaee/target/" />
-    <ignored path="$PROJECT_DIR$/my_dependences/target/" />
-    <ignored path="$PROJECT_DIR$/upgrade-concurrent/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/upgrade_concurrent/target/" />
+    <ignored path="$PROJECT_DIR$/my_commons/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,72 +95,76 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThreadByThread.java">
+        <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThreadByRunnable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="230">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThreadByCallable.java">
+        <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/EndThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="407">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+              <folding>
+                <element signature="e#270#271#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/EndRunnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/DaemonThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThread.java">
+        <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/SynClzAndInst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/JAVA/JDK8/src.zip!/java/util/concurrent/FutureTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2700">
-              <caret line="187" column="13" selection-start-line="187" selection-start-column="13" selection-end-line="187" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/JAVA/JDK8/src.zip!/java/lang/Thread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7542">
-              <caret line="462" column="11" selection-start-line="462" selection-start-column="11" selection-end-line="462" selection-end-column="11" />
+            <state relative-caret-position="72">
+              <caret line="4" selection-start-line="4" selection-end-line="133" />
               <folding>
-                <element signature="e#15704#15705#0" expanded="true" />
-                <element signature="e#15770#15771#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/JAVA/JDK8/src.zip!/java/util/concurrent/Callable.java">
+        <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
+            <state relative-caret-position="126">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/JAVA/JDK8/src.zip!/java/util/concurrent/TimeUnit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="385" column="22" selection-start-line="385" selection-start-column="22" selection-end-line="385" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -141,54 +181,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HierarchyBrowserManager">
-    <option name="SORT_ALPHABETICALLY" value="true" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/base_javaweb/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/base_javaee/pom.xml" />
-        <option value="$PROJECT_DIR$/base_javaweb/pom.xml" />
-        <option value="$PROJECT_DIR$/base_javase/pom.xml" />
-        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L2基础语法/L2_3流程控制/SwitchTest.java" />
-        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L2基础语法/L2_5流程控制/SwitchTest.java" />
-        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L2基础语法/L2_5流程控制/L2_5循环控制/三大循环结构.txt" />
-        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L2基础语法/L2_1关键字.md" />
-        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L2基础语法/L2_5流程控制/L2_5循环控制/三大循环结构.md" />
-        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L2基础语法/L2_5流程控制/L2_5循环控制/九九乘法表.java" />
-        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L1Java概述/面向对象三大特性.java" />
-        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L1Java概述/面向对象的三大特征.md" />
-        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L1Java概述/HelloJava.java" />
-        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L2基础语法/L2_2标识符.java" />
-        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L2基础语法/标识符和命名规范.md" />
-        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L3数组/数组概述.md" />
-        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L3数组/数组内存测试.java" />
-        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L3数组/数组初始化.java" />
-        <option value="$PROJECT_DIR$/upgrade-concurrent/pom.xml" />
-        <option value="$PROJECT_DIR$/my_dependences/pom.xml" />
-        <option value="$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/ch1/OnlyMain.java" />
-        <option value="$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/ch1/OnlyMain.java" />
-        <option value="$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/ch1/NewThread.java" />
-        <option value="$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThreadByThread.java" />
-        <option value="$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThreadByRunnable.java" />
-        <option value="$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThreadByCallable.java" />
+        <option value="$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/Test.java" />
         <option value="$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThread.java" />
+        <option value="$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/EndThread.java" />
+        <option value="$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/EndRunnable.java" />
+        <option value="$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/HasInterrputException.java" />
+        <option value="$PROJECT_DIR$/my_commons/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/upgrade_concurrent/pom.xml" />
+        <option value="$PROJECT_DIR$/my_commons/src/main/java/com/suixin/commons/utils/SleepTools.java" />
+        <option value="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/HasInterrputException.java" />
+        <option value="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/EndRunnable.java" />
+        <option value="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/DaemonThread.java" />
+        <option value="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/SynClzAndInst.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\maven\apache-maven-3.5.2\repo" />
         <option name="mavenHome" value="D:/maven/apache-maven-3.5.2" />
-        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -202,32 +222,27 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="阿成的学习平台" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="阿成的学习平台" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="167" />
-    <option name="y" value="80" />
-    <option name="width" value="1714" />
-    <option name="height" value="875" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="145" />
+    <option name="y" value="207" />
+    <option name="width" value="1750" />
+    <option name="height" value="927" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -239,25 +254,25 @@
             <path>
               <item name="my-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="upgrade-concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="upgrade_concurrent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="upgrade-concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="upgrade_concurrent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="upgrade-concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="upgrade_concurrent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="upgrade-concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="upgrade_concurrent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -265,7 +280,7 @@
             <path>
               <item name="my-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="upgrade-concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="upgrade_concurrent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -275,31 +290,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ssm-my-shop" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ACODE\my-learn\base_javase\src\main\java\com\suixin\mylearn\L2基础语法" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ACODE\my-learn\base_javase\src\main\java\com\suixin\mylearn\L1Java概述" />
-    </key>
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -313,13 +314,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OnlyMain">
-    <configuration name="九九乘法表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suixin.mylearn.L2基础语法.L2_5流程控制.L2_5循环控制.九九乘法表" />
-      <module name="base_javase" />
+  <component name="RunManager" selected="Application.SynClzAndInst">
+    <configuration name="DaemonThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suixin.concurrent.启动和终止线程.DaemonThread" />
+      <module name="upgrade_concurrent" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suixin.mylearn.L2基础语法.L2_5流程控制.L2_5循环控制.*" />
+          <option name="PATTERN" value="com.suixin.concurrent.启动和终止线程.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -327,12 +328,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OnlyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suixin.ch1.OnlyMain" />
-      <module name="upgrade-concurrent" />
+    <configuration name="EndRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suixin.concurrent.启动和终止线程.EndRunnable" />
+      <module name="upgrade_concurrent" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suixin.ch1.*" />
+          <option name="PATTERN" value="com.suixin.concurrent.启动和终止线程.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,12 +341,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="数组初始化" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suixin.mylearn.L3数组.数组初始化" />
-      <module name="base_javase" />
+    <configuration name="EndThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suixin.concurrent.启动和终止线程.EndThread" />
+      <module name="upgrade_concurrent" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suixin.mylearn.L3数组.*" />
+          <option name="PATTERN" value="com.suixin.concurrent.启动和终止线程.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -353,61 +354,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchTest.testNoBreak" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="base_javase" />
+    <configuration name="HasInterrputException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suixin.concurrent.启动和终止线程.HasInterrputException" />
+      <module name="upgrade_concurrent" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suixin.mylearn.L2基础语法.L2_5流程控制.*" />
+          <option name="PATTERN" value="com.suixin.concurrent.启动和终止线程.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.suixin.mylearn.L2基础语法.L2_5流程控制" />
-      <option name="MAIN_CLASS_NAME" value="com.suixin.mylearn.L2基础语法.L2_5流程控制.SwitchTest" />
-      <option name="METHOD_NAME" value="testNoBreak" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchTest.testNoBreak2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="base_javase" />
+    <configuration name="SynClzAndInst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suixin.concurrent.启动和终止线程.SynClzAndInst" />
+      <module name="upgrade_concurrent" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suixin.mylearn.L2基础语法.L2_5流程控制.*" />
+          <option name="PATTERN" value="com.suixin.concurrent.启动和终止线程.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.suixin.mylearn.L2基础语法.L2_5流程控制" />
-      <option name="MAIN_CLASS_NAME" value="com.suixin.mylearn.L2基础语法.L2_5流程控制.SwitchTest" />
-      <option name="METHOD_NAME" value="testNoBreak2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SwitchTest.testNoBreak3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="base_javase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.suixin.mylearn.L2基础语法.L2_5流程控制.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.suixin.mylearn.L2基础语法.L2_5流程控制" />
-      <option name="MAIN_CLASS_NAME" value="com.suixin.mylearn.L2基础语法.L2_5流程控制.SwitchTest" />
-      <option name="METHOD_NAME" value="testNoBreak3" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OnlyMain" />
-        <item itemvalue="Application.九九乘法表" />
-        <item itemvalue="JUnit.SwitchTest.testNoBreak3" />
-        <item itemvalue="JUnit.SwitchTest.testNoBreak2" />
-        <item itemvalue="JUnit.SwitchTest.testNoBreak" />
+        <item itemvalue="Application.SynClzAndInst" />
+        <item itemvalue="Application.DaemonThread" />
+        <item itemvalue="Application.EndRunnable" />
+        <item itemvalue="Application.HasInterrputException" />
+        <item itemvalue="Application.EndThread" />
       </list>
     </recent_temporary>
   </component>
@@ -416,74 +395,50 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="984415b1-6c0a-4917-82a0-b9f927f10eb3" name="Default Changelist" comment="" />
-      <created>1562699373578</created>
+      <changelist id="90f6a64d-fa24-42fb-bcdd-b69071f9c05c" name="Default Changelist" comment="" />
+      <created>1563016267275</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562699373578</updated>
-      <workItem from="1562699376050" duration="548000" />
-      <workItem from="1562699956640" duration="4853000" />
-      <workItem from="1562846208070" duration="8050000" />
-      <workItem from="1563006462511" duration="5900000" />
-      <workItem from="1563012654484" duration="750000" />
+      <updated>1563016267275</updated>
+      <workItem from="1563016270601" duration="246000" />
+      <workItem from="1563016573700" duration="2768000" />
+      <workItem from="1563019376802" duration="25000" />
+      <workItem from="1563019756256" duration="15931000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="SwitchTest_testNoBreak - 2019.07.11 at 20h 11m 04s.xml">
-      <configuration name="SwitchTest.testNoBreak" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SwitchTest_testNoBreak2 - 2019.07.11 at 20h 14m 51s.xml">
-      <configuration name="SwitchTest.testNoBreak2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SwitchTest_testNoBreak3 - 2019.07.11 at 20h 18m 54s.xml">
-      <configuration name="SwitchTest.testNoBreak3" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20101000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="18970000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="135" y="65" width="1370" height="699" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49626866" visible="true" weight="0.20884146" />
-      <window_info id="Designer" order="1" />
-      <window_info id="Structure" order="2" sideWeight="0.50373137" side_tool="true" weight="0.20594966" />
-      <window_info id="JRebel" order="3" sideWeight="0.50141644" side_tool="true" weight="0.2124665" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Web" order="8" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20442359" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4990177" weight="0.053003535" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39969134" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33427763" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24220963" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3287037" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.29320112" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50098234" side_tool="true" weight="0.5622318" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3286119" />
-      <window_info anchor="bottom" id="JRebel Executor" order="13" />
-      <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.50098234" side_tool="true" weight="0.5622318" />
-      <window_info anchor="bottom" id="Messages" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.27478755" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.36024845" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24965706" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.19638069" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.17493297" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -494,358 +449,163 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1111" />
+    <option name="LAST_COMMIT_MESSAGE" value="1111" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/base_javaweb/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/OnlyMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base_javaweb/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThreadByThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThreadByRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThreadByCallable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="33" />
+          <caret line="4" selection-start-line="4" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="uml://MAVEN/com.suixin:my-learn:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.suixin:my-learn:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.suixin:my-learn:1.0-SNAPSHOT</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="413.0" y="34.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.suixin:my_dependences:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.suixin:my_dependences:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.suixin:my_dependences:1.0-SNAPSHOT</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="62.0" y="11.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MODULES/mdl-base_javaee">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MODULES</ID>
-          <OriginalElement>mdl-base_javaee</OriginalElement>
-          <nodes>
-            <node x="" y="">mdl-base_javaee</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="73.0" y="11.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.suixin:base_javaee:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.suixin:base_javaee:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.suixin:base_javaee:1.0-SNAPSHOT</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="46.0" y="11.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.suixin:base_javaweb:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.suixin:base_javaweb:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.suixin:base_javaweb:1.0-SNAPSHOT</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="51.0" y="11.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L2基础语法/L2_1关键字.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L2基础语法/L2_5流程控制/SwitchTest.java">
+    <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="94" column="5" selection-end-line="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L2基础语法/L2_5流程控制/L2_5循环控制/三大循环结构.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L2基础语法/L2_5流程控制/L2_5循环控制/九九乘法表.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L1Java概述/面向对象三大特性.java" />
-    <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L2基础语法/L2_2标识符.java" />
-    <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L2基础语法/标识符和命名规范.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="954">
-            <caret line="53" column="10" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L1Java概述/HelloJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding>
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L1Java概述/面向对象的三大特征.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="306">
-            <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JAVA/JDK8/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="2825" column="38" selection-start-line="2825" selection-start-column="38" selection-end-line="2829" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JAVA/JDK8/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1566">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        <state relative-caret-position="230">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L3数组/数组概述.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="306">
-            <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JAVA/JDK8/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding>
-            <element signature="e#5748#5749#0" expanded="true" />
-            <element signature="e#5784#5785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.lang.String">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.lang.String</OriginalElement>
-          <nodes>
-            <node x="304.0" y="0.0">java.lang.CharSequence</node>
-            <node x="160.0" y="0.0">java.lang.Comparable</node>
-            <node x="176.0" y="78.0">java.lang.String</node>
-            <node x="0.0" y="0.0">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.lang.String" target="java.lang.Comparable">
-              <point x="0.0" y="-14.0" />
-              <point x="0.0" y="14.0" />
-            </edge>
-            <edge source="java.lang.String" target="java.io.Serializable">
-              <point x="-30.666666666666686" y="-14.0" />
-              <point x="191.33333333333331" y="53.0" />
-              <point x="70.0" y="53.0" />
-              <point x="0.0" y="14.0" />
-            </edge>
-            <edge source="java.lang.String" target="java.lang.CharSequence">
-              <point x="30.666666666666657" y="-14.0" />
-              <point x="252.66666666666666" y="53.0" />
-              <point x="374.0" y="53.0" />
-              <point x="0.0" y="14.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="222.0" y="53.0" />
-          <SelectedNodes>
-            <node>java.lang.CharSequence</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L3数组/数组初始化.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upgrade-concurrent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base_javaee/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/base_javase/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base_javaweb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="9" />
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_dependences/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="247" column="18" lean-forward="true" selection-start-line="247" selection-start-column="18" selection-end-line="247" selection-end-column="18" />
+        <state relative-caret-position="-216" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/OnlyMain.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="33" />
+        <state relative-caret-position="223">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upgrade_concurrent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/EndThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/HasInterrputException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThreadByThread.java">
+    <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/EndRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="127">
+          <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThreadByRunnable.java">
+    <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/DaemonThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThreadByCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JAVA/JDK8/src.zip!/java/util/concurrent/FutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2700">
-          <caret line="187" column="13" selection-start-line="187" selection-start-column="13" selection-end-line="187" selection-end-column="13" />
+        <state relative-caret-position="486">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/JAVA/JDK8/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7542">
-          <caret line="462" column="11" selection-start-line="462" selection-start-column="11" selection-end-line="462" selection-end-column="11" />
+        <state relative-caret-position="192">
+          <caret line="324" column="23" selection-start-line="324" selection-start-column="23" selection-end-line="324" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/JDK8/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="385" column="22" selection-start-line="385" selection-start-column="22" selection-end-line="385" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_commons/src/main/java/com/suixin/commons/utils/SleepTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="16" column="31" selection-start-line="15" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/SynClzAndInst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="133" />
           <folding>
-            <element signature="e#15704#15705#0" expanded="true" />
-            <element signature="e#15770#15771#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JAVA/JDK8/src.zip!/java/util/concurrent/Callable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upgrade-concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/NewThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -899,7 +659,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>upgrade-concurrent</last-edited>
+          <last-edited>my_commons</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -945,8 +705,5 @@
         </settings>
       </state>
     </states>
-  </component>
-  <component name="mavenExecuteGoalHistory">
-    <option value="" />
   </component>
 </project>

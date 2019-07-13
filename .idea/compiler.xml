@@ -6,19 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="base_javaee" />
-        <module name="upgrade-concurrent" />
+        <module name="upgrade_concurrent" />
         <module name="base_javaweb" />
+        <module name="base_javaee" />
+        <module name="my_commons" />
         <module name="base_javase" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="base_javaee" target="1.8" />
-      <module name="base_javase" target="1.8" />
-      <module name="base_javaweb" target="1.8" />
-      <module name="my-learn" target="1.5" />
-      <module name="my_dependences" target="1.8" />
-      <module name="upgrade-concurrent" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
