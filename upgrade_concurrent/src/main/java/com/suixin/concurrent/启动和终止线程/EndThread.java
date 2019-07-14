@@ -30,7 +30,7 @@ public class EndThread {
         //开始线程
         endThread.start();
         //休眠一下
-        Thread.sleep(20);
+        Thread.sleep(100);
 
         //标记中断,将标记中断位改为true
         endThread.interrupt();
