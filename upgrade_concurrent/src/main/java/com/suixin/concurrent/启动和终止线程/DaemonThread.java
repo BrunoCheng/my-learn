@@ -12,7 +12,7 @@ public class DaemonThread {
         @Override
         public void run() {
             try {
-                while (!isInterrupted()) {
+                while (!Thread.currentThread().isInterrupted()) {
                     System.out.println(Thread.currentThread().getName()
                             + " I am extends Thread.");
                 }
@@ -31,6 +31,7 @@ public class DaemonThread {
         useThread.setDaemon(true);
         useThread.start();
         Thread.sleep(5);
-        useThread.interrupt();
+        //加上.interrupt()才会执行finally
+        //useThread.interrupt();
     }
 }
