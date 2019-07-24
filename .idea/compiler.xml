@@ -9,6 +9,7 @@
         <module name="upgrade_concurrent" />
         <module name="base_javaweb" />
         <module name="base_javaee" />
+        <module name="upgrade_spring" />
         <module name="my_commons" />
         <module name="base_javase" />
       </profile>

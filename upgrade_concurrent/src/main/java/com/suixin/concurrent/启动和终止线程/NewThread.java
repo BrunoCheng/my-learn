@@ -1,7 +1,6 @@
 package com.suixin.concurrent.启动和终止线程;
 
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.FutureTask;
+import java.util.concurrent.*;
 
 /**
  * @Description:开启线程的三种方法
@@ -26,6 +25,16 @@ public class NewThread {
 
         //而且可以获取Callable返回的对象值
         System.out.println(stringFutureTask.get());
+
+
+        //多线程情况下获取Callable返回的对象值
+        ExecutorService es = Executors.newFixedThreadPool(2);
+        Future<String> future1 = es.submit(newThreadByCallable);
+        Future<String> future2 = es.submit(newThreadByCallable);
+        String s1 = future1.get();
+        String s2 = future2.get();
+        System.out.println(s1+s2);
+        es.shutdown();
 
     }
 }

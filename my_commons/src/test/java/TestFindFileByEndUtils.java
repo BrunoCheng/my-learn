@@ -7,7 +7,6 @@ import com.suixin.commons.utils.FindFileByEndUtils;
  */
 public class TestFindFileByEndUtils {
     public static void main(String[] args) throws InterruptedException {
-
-        FindFileByEndUtils.findDirsFilesByName("E:/","白蛇");
+        FindFileByEndUtils.findDirsFilesByEnd("D:\\享受学习\\8.netty无密视频",".mp4");
     }
 }

@@ -71,7 +71,7 @@ public class FindDirsFiles extends RecursiveAction {
                 otherWork = otherWork + i;
             }
             System.out.println("Main Thread done sth......,otherWork=" + otherWork);
-            task.join();//阻塞的方法
+            task.join();//阻塞的方法,防止主线程过早的结束影响ForkJoinPool的task执行
             System.out.println("Task end");
         } catch (Exception e) {
             e.printStackTrace();

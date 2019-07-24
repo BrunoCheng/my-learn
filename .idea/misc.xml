@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/base_javaweb" />
+    <file type="web" url="file://$PROJECT_DIR$/upgrade_spring" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
