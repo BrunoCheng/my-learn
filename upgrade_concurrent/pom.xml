@@ -13,10 +13,11 @@
     <artifactId>upgrade-concurrent</artifactId>
     <packaging>jar</packaging>
     <description>并发编程进阶</description>
+
     <dependencies>
         <dependency>
             <groupId>com.suixin</groupId>
-            <artifactId>my-commons</artifactId>
+            <artifactId>my_commons</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
     </dependencies>

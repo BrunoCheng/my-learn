@@ -1,17 +1,15 @@
-package com.suixin;
-
-import com.suixin.concurrent.Java里面的线程.线程间共享.volatile关键字.Singleton;
+package com.suixin.concurrent.Java里面的线程.线程间共享.volatile关键字;
 
 import java.util.concurrent.*;
 
 /**
- * @Description 测试Callable接口获取返回值
- * @Date 2019/7/23
+ * @Description 测试多线程
+ * @Date 2019/7/15
  * @Created by acheng
  */
-public class TestCallable {
+public class TestSingleton {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        Callable<Singleton> callable= new Callable<Singleton>() {
+        Callable<Singleton>  callable= new Callable<Singleton>() {
             @Override
             public Singleton call() throws Exception {
                 return Singleton.getSingleton();
