@@ -4,7 +4,7 @@ import java.util.concurrent.ExecutionException;
 
 /**
  * @Description 守护线程的使用和守护线程中的finally语句块
- * @Date 2019/7/14
+ * @Date 2016/7/14
  * @Created by acheng
  */
   class UseThread extends Thread {
@@ -31,8 +31,8 @@ public class DaemonThread {
         //守护线程必须设置在start之前才有用
         useThread.setDaemon(true);
         useThread.start();
-        Thread.sleep(5);
+        Thread.sleep(500);
         //加上.interrupt()才会执行finally
-        //useThread.interrupt();
+        useThread.interrupt();
     }
 }

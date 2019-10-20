@@ -24,9 +24,9 @@ public class TestCallable {
         Future<Singleton> f2 = es.submit(callable);
         Singleton s1 = f1.get();
         Singleton s2 = f2.get();
-        System.out.println(s1 == s2);
+        System.out.println(s1 == s2);//true
         System.out.println(s1);
-        System.out.println(s2);
-        es.shutdown();
+        System.out.println(s2);//地址值相同
+        es.shutdown();//关闭线程服务
     }
 }

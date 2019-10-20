@@ -4,7 +4,7 @@ import com.suixin.commons.utils.SleepTools;
 
 /**
  * @Description StartAndRun之前的区别
- * @Date 2019/7/15
+ * @Date 2016/7/15
  * @Created by acheng
  */
 public class StartAndRun {
@@ -23,30 +23,26 @@ public class StartAndRun {
 
     private static class User {
         public void run() {
-
+            System.out.println("i am main");
         }
     }
 
     public static void main(String[] args) {
         ThreadRun beCalled = new ThreadRun();
-        beCalled.setName("BeCalled");
+        beCalled.setName("BeCalled");//Thread自定义线程名字,如果自定义构造方法也可以用自定义构造器来命名
         //beCalled.setPriority(newPriority);
         beCalled.run();
         //执行run就和创建一个普通的User对象执行其run方法一样
+        //I am main and now the i=3
+        //I am main and now the i=2
+        //I am main and now the i=1
         User user = new User();
         user.run();
-
-        //使用start()开始
+        //i am main
+        //使用start()开始,线程属于启动线程本身
         beCalled.start();
-        /**
-         * 执行run方法,线程属于main线程
-         * I am main and now the i=3
-         * I am main and now the i=2
-         * I am main and now the i=1
-         * 执行start方法,线程属于启动线程
-         * I am BeCalled and now the i=3
-         * I am BeCalled and now the i=2
-         * I am BeCalled and now the i=1
-         */
+        //I am BeCalled and now the i=3
+        //I am BeCalled and now the i=2
+        //I am BeCalled and now the i=1
     }
 }

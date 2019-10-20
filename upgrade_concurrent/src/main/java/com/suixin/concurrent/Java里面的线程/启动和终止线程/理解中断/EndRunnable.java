@@ -21,7 +21,7 @@ public class EndRunnable {
 
     public static void main(String[] args) throws InterruptedException {
         UseRunnable useRunnable = new UseRunnable();
-        Thread endThread = new Thread(useRunnable,"endThread");
+        Thread endThread = new Thread(useRunnable);
         endThread.start();
         Thread.sleep(100);
         endThread.interrupt();

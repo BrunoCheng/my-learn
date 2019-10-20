@@ -2,7 +2,7 @@ package com.suixin.concurrent.Java里面的线程.线程间共享.ThreadLocal对
 
 /**
  * @Description 演示ThreadLocal的使用
- * @Date 2019/7/14
+ * @Date 2016/7/14
  * @Created by acheng
  */
 public class UseThreadLocal {
@@ -11,6 +11,7 @@ public class UseThreadLocal {
     static ThreadLocal<Integer> threadLocal = new ThreadLocal<Integer>() {
         @Override
         protected Integer initialValue() {
+            //每个线程初始值为1
             return 1;
         }
     };
@@ -21,6 +22,7 @@ public class UseThreadLocal {
     public void StartThreadArray() {
         Thread[] runs = new Thread[3];
         for (int i = 0; i < runs.length; i++) {
+            //每个线程初始名不同
             runs[i] = new Thread(new TestThread(i));
         }
         for (int i = 0; i < runs.length; i++) {
@@ -58,9 +60,9 @@ public class UseThreadLocal {
          * Thread-1:start
          * Thread-0:start
          * Thread-2:start
-         * Thread-1:2
-         * Thread-0:1
-         * Thread-2:3
+         * Thread-1:2 S=1
+         * Thread-0:1 S=1
+         * Thread-2:3 S=1
          * 测试代码中分别取出来S并设置回去,但是三个线程运行都是使用的S=1时状态,也就说三个线程变量不共享
          */
     }

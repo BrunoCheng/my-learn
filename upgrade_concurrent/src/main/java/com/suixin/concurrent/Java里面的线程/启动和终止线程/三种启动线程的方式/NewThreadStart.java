@@ -20,12 +20,13 @@ public class NewThreadStart {
 
         NewThreadByCallable newThreadByCallable = new NewThreadByCallable();
         //Callable与Runnable不同,Thread方法不知此Callable,为了将Callable放给Thread,将Callable包装成Runnable
+        //Callable可呼叫的  Future未来，task任务
         FutureTask<String> stringFutureTask = new FutureTask<>(newThreadByCallable);
         new Thread(stringFutureTask).start();
 
         //而且可以获取Callable返回的对象值
+        //启动的时候Thread线程是没有输出项的，需要自己获取
         System.out.println(stringFutureTask.get());
-
 
         //多线程情况下获取Callable返回的对象值
         ExecutorService es = Executors.newFixedThreadPool(2);
@@ -33,7 +34,8 @@ public class NewThreadStart {
         Future<String> future2 = es.submit(newThreadByCallable);
         String s1 = future1.get();
         String s2 = future2.get();
-        System.out.println(s1+s2);
+        System.out.println(s1+","+s2);
+        //记得关闭线程
         es.shutdown();
 
     }

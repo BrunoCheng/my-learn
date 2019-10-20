@@ -16,7 +16,6 @@ public class VolatileUnsafe {
         @Override
         public void run() {
             String threadName = Thread.currentThread().getName();
-            System.out.println(threadName+":======"+a);
             a = a++;
             System.out.println(threadName+":======"+a);
             SleepTools.sleepByMS(200);
