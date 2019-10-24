@@ -2,27 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90f6a64d-fa24-42fb-bcdd-b69071f9c05c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/base_javaee/src/main/java/com/suixin/note/binary/IntToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_javaee/src/main/java/com/suixin/note/binary/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_javaee/target/classes/com/suixin/note/binary/IntToBinary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_javaee/target/classes/com/suixin/note/binary/Permission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_commons/src/test/java/chazhao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_commons/target/test-classes/META-INF/my_commons.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_commons/target/test-classes/chazhao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/OnlyMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/启动和终止线程/UseJoin$JumpQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/启动和终止线程/UseJoin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/启动和终止线程/三种启动线程的方式/NewThreadByCallable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/启动和终止线程/三种启动线程的方式/NewThreadByRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/启动和终止线程/三种启动线程的方式/NewThreadByThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/启动和终止线程/三种启动线程的方式/NewThreadStart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/启动和终止线程/如何安全的终止线程/HasInterrputException$UseThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/启动和终止线程/如何安全的终止线程/HasInterrputException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/启动和终止线程/理解中断/EndRunnable$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/启动和终止线程/理解中断/EndRunnable$UseRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/启动和终止线程/理解中断/EndRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/启动和终止线程/理解中断/EndThread$UseThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/启动和终止线程/理解中断/EndThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程再认识/Deamon线程/DaemonThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程再认识/Deamon线程/UseThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程再认识/start方法和run方法的区别/StartAndRun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程再认识/start方法和run方法的区别/StartAndRun$ThreadRun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程再认识/start方法和run方法的区别/StartAndRun$User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程再认识/start方法和run方法的区别/StartAndRun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间共享/ThreadLocal对象/UseThreadLocal$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间共享/ThreadLocal对象/UseThreadLocal$TestThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间共享/ThreadLocal对象/UseThreadLocal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间共享/synchronized内置锁/SynClzAndInst$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间共享/synchronized内置锁/SynClzAndInst$Instance2Syn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间共享/synchronized内置锁/SynClzAndInst$InstanceSyn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间共享/synchronized内置锁/SynClzAndInst$SynClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间共享/synchronized内置锁/SynClzAndInst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间共享/volatile关键字/Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间共享/volatile关键字/TestSingleton$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间共享/volatile关键字/TestSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间共享/volatile关键字/VolatileUnsafe$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间共享/volatile关键字/VolatileUnsafe$VolatileVar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间共享/volatile关键字/VolatileUnsafe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间协作/等待和通知机制/Express.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间协作/等待和通知机制/TestNotifyAndWait$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间协作/等待和通知机制/TestNotifyAndWait$CheckKm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间协作/等待和通知机制/TestNotifyAndWait$CheckSite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间协作/等待和通知机制/TestNotifyAndWait.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间协作/等待超时模式/BDPoolTest$Worker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间协作/等待超时模式/BDPoolTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间协作/等待超时模式/DBPool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/Java里面的线程/线程间协作/等待超时模式/SqlConnectImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/forkjoin/FindDirsFiles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/forkjoin/sum/MakeArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/forkjoin/sum/SumArray$SumTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/forkjoin/sum/SumArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/forkjoin/sum/SumNormal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/future/UseFuture$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/future/UseFuture$UseCallable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/future/UseFuture.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/tools/UseCountDownLatch$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/tools/UseCountDownLatch$BusiThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/tools/UseCountDownLatch$InitThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/tools/UseCountDownLatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/tools/UseCyclicBarrier$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/tools/UseCyclicBarrier$CollectThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/tools/UseCyclicBarrier$SubThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/tools/UseCyclicBarrier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/tools/UseExchange$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/tools/UseExchange$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/tools/UseExchange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/tools/semaphore/AppTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/tools/semaphore/AppTest$BusiThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/tools/semaphore/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/tools/semaphore/CountDownLatchDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/tools/semaphore/DBPoolSemaphore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/classes/com/suixin/concurrent/线程并发工具类/tools/semaphore/SqlConnectImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/test-classes/com/suixin/TestCallable$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upgrade_concurrent/target/test-classes/com/suixin/TestCallable.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_commons/target/test-classes/TestDownloadForM3U8ByMutil$downLoadNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_commons/target/test-classes/TestDownloadForM3U8ByMutil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_commons/target/test-classes/TestDownloadForM3U8ByMutil2$downLoadNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_commons/target/test-classes/TestDownloadForM3U8ByMutil2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_commons/target/test-classes/TestDownloadForM3U8ByMutil3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_commons/target/test-classes/TestDownloadForM3U8ByMutil3$M3U8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_commons/target/test-classes/TestDownloadForM3U8ByMutil3$M3U8Ts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_commons/target/test-classes/TestDownloadForM3U8ByMutil3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_commons/target/test-classes/TestDownloadForM3U8BySingle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_commons/target/test-classes/TestFindFileByEndUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_commons/target/test-classes/TestPaChong2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_commons/target/test-classes/TestPaChongUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/启动和终止线程/三种启动线程的方式/NewThreadStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/启动和终止线程/三种启动线程的方式/NewThreadStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/启动和终止线程/如何安全的终止线程/HasInterrputException.java" beforeDir="false" afterPath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/启动和终止线程/如何安全的终止线程/HasInterrputException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/启动和终止线程/理解中断/EndRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/启动和终止线程/理解中断/EndRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程再认识/Deamon线程/DaemonThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程再认识/Deamon线程/DaemonThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程再认识/start方法和run方法的区别/StartAndRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程再认识/start方法和run方法的区别/StartAndRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程间共享/ThreadLocal对象/UseThreadLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程间共享/ThreadLocal对象/UseThreadLocal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程间共享/volatile关键字/VolatileUnsafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程间共享/volatile关键字/VolatileUnsafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upgrade_concurrent/src/test/java/com/suixin/TestCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/upgrade_concurrent/src/test/java/com/suixin/TestCallable.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/my_dependences/target/" />
@@ -63,95 +120,109 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/启动和终止线程/理解中断/EndRunnable.java">
+        <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程间共享/volatile关键字/VolatileUnsafe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="228">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/启动和终止线程/如何安全的终止线程/HasInterrputException.java">
+        <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程间共享/ThreadLocal对象/UseThreadLocal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="80" />
+            <state relative-caret-position="209">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/启动和终止线程/三种启动线程的方式/NewThreadByThread.java">
+        <entry file="file://$PROJECT_DIR$/my_commons/src/test/java/pachong/PaChongForShenMaDianYing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/启动和终止线程/UseJoin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程再认识/start方法和run方法的区别/StartAndRun.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="48" selection-start-line="4" selection-end-line="48" />
+            <state relative-caret-position="551">
+              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
               <folding>
-                <element signature="e#621#622#0" expanded="true" />
-                <element signature="e#667#668#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程再认识/Deamon线程/DaemonThread.java">
+        <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/L14static关键字/SingletonDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="38" selection-start-line="4" selection-end-line="38" />
+            <state relative-caret-position="-2">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程间共享/volatile关键字/Singleton.java">
+        <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/L14static关键字/SingletonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="114">
+              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程间共享/volatile关键字/TestSingleton.java">
+        <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/L14static关键字/LeafTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程间共享/volatile关键字/VolatileUnsafe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="74" selection-end-column="1" />
+              <folding>
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程间共享/ThreadLocal对象/UseThreadLocal.java">
+        <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/L14static关键字/Son.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="69" selection-start-line="2" selection-end-line="69" />
+            <state relative-caret-position="-427">
+              <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="e#497#498#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/L14static关键字/JDBCUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" selection-start-line="12" selection-end-line="50" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://E:/开发学习资料/进阶视频/基础JavaSE/尚硅谷_康师傅2019新版—30天搞定Java核心技术/文档/第1部分：Java基础编程/尚硅谷_宋红康_第6章_面向对象编程(下)/Son.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/L14static关键字/SingletonDemo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -211,15 +282,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/upgrade_spring/src/main/java/com/suixin/spring/anno/cp1/MainTest2.java" />
-        <option value="$PROJECT_DIR$/upgrade_spring/pom.xml" />
-        <option value="$PROJECT_DIR$/upgrade_spring/src/main/java/com/suixin/spring/anno/cp2/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/upgrade_spring/src/main/java/com/suixin/spring/anno/cp2/dao/OrderDao.java" />
-        <option value="$PROJECT_DIR$/upgrade_spring/src/main/java/com/suixin/spring/anno/cp2/config/Cp2MainConfigTest.java" />
-        <option value="$PROJECT_DIR$/upgrade_spring/src/main/java/com/suixin/spring/anno/cp2/config/Cp2MainConfig.java" />
-        <option value="$PROJECT_DIR$/upgrade_spring/src/main/java/com/suixin/spring/anno/cp2/config/AchengTypeFilter.java" />
-        <option value="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/三种启动线程的方式/NewThread.java" />
-        <option value="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/三种启动线程的方式/NewThreadStart.java" />
         <option value="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/理解中断/EndRunnable.java" />
         <option value="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/启动和终止线程/如何安全的终止线程/HasInterrputException.java" />
         <option value="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/线程再认识/start方法和run方法的区别/StartAndRun.java" />
@@ -262,6 +324,15 @@
         <option value="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程再认识/Deamon线程/DaemonThread.java" />
         <option value="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程间共享/volatile关键字/VolatileUnsafe.java" />
         <option value="$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程间共享/ThreadLocal对象/UseThreadLocal.java" />
+        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/static关键字/SingletonDemo.java" />
+        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/static关键字/SingletonDemo2.java" />
+        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/static关键字/SingletonTest.java" />
+        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/Test1.java" />
+        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/Otherthing.java" />
+        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/L14static关键字/SingletonTest.java" />
+        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/L14static关键字/JDBCUtils.java" />
+        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/L14static关键字/LeafTest.java" />
+        <option value="$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/L14static关键字/Son.java" />
       </list>
     </option>
   </component>
@@ -300,10 +371,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="107" />
-    <option name="y" value="197" />
+    <option name="x" value="147" />
+    <option name="y" value="176" />
     <option name="width" value="1655" />
-    <option name="height" value="959" />
+    <option name="height" value="753" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -323,117 +394,89 @@
             <path>
               <item name="my-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="upgrade_concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="base_javase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="upgrade_concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="base_javase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="upgrade_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="upgrade_concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="base_javase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="upgrade_concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="base_javase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="upgrade_concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="base_javase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="Java里面的线程" type="462c0819:PsiDirectoryNode" />
+              <item name="mylearn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="upgrade_concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="base_javase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="Java里面的线程" type="462c0819:PsiDirectoryNode" />
-              <item name="线程间共享" type="462c0819:PsiDirectoryNode" />
+              <item name="mylearn" type="462c0819:PsiDirectoryNode" />
+              <item name="L4面向对象" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="upgrade_concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="base_javase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="Java里面的线程" type="462c0819:PsiDirectoryNode" />
-              <item name="线程间共享" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadLocal对象" type="462c0819:PsiDirectoryNode" />
+              <item name="mylearn" type="462c0819:PsiDirectoryNode" />
+              <item name="L4面向对象" type="462c0819:PsiDirectoryNode" />
+              <item name="L14static关键字" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="upgrade_concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="base_javase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="Java里面的线程" type="462c0819:PsiDirectoryNode" />
-              <item name="线程间共享" type="462c0819:PsiDirectoryNode" />
-              <item name="volatile关键字" type="462c0819:PsiDirectoryNode" />
+              <item name="mylearn" type="462c0819:PsiDirectoryNode" />
+              <item name="L4面向对象" type="462c0819:PsiDirectoryNode" />
+              <item name="L14static关键字" type="462c0819:PsiDirectoryNode" />
+              <item name="LeafTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="my-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="upgrade_concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="base_javase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="Java里面的线程" type="462c0819:PsiDirectoryNode" />
-              <item name="线程间协作" type="462c0819:PsiDirectoryNode" />
+              <item name="mylearn" type="462c0819:PsiDirectoryNode" />
+              <item name="L4面向对象" type="462c0819:PsiDirectoryNode" />
+              <item name="L14static关键字" type="462c0819:PsiDirectoryNode" />
+              <item name="Son.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="my-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="upgrade_concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="base_javase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="upgrade_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="upgrade_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="suixin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -449,17 +492,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/upgrade_spring/src/main/java/com/suixin/spring/anno/cp2" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ACODE\my-learn\upgrade_spring\src\main\java\com\suixin\spring\anno\cp2" />
-      <recent name="D:\ACODE\my-learn\upgrade_concurrent\src\main\java\com\suixin\concurrent\线程并发工具类\tools" />
-      <recent name="D:\ACODE\my-learn\upgrade_concurrent\src\main\java\com\suixin\concurrent\线程并发工具类\future" />
-      <recent name="D:\ACODE\my-learn\upgrade_concurrent\src\main\java\com\suixin\concurrent\线程并发工具类" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ACODE\my-learn\base_javase\src\main\java\com\suixin\mylearn\L4面向对象\L14static关键字" />
+      <recent name="D:\ACODE\my-learn\upgrade_spring\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pachong" />
@@ -467,8 +508,11 @@
       <recent name="com.suixin.concurrent.Java里面的线程.线程间协作.等待和通知机制" />
       <recent name="com.suixin.spring.anno.cp1" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ACODE\my-learn\upgrade_spring\src\main\webapp" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ACODE\my-learn\upgrade_spring\src\main\java\com\suixin\spring\anno\cp2" />
+      <recent name="D:\ACODE\my-learn\upgrade_concurrent\src\main\java\com\suixin\concurrent\线程并发工具类\tools" />
+      <recent name="D:\ACODE\my-learn\upgrade_concurrent\src\main\java\com\suixin\concurrent\线程并发工具类\future" />
+      <recent name="D:\ACODE\my-learn\upgrade_concurrent\src\main\java\com\suixin\concurrent\线程并发工具类" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -483,13 +527,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VolatileUnsafe">
-    <configuration name="DaemonThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suixin.concurrent.Java里面的线程.线程再认识.Deamon线程.DaemonThread" />
-      <module name="upgrade_concurrent" />
+  <component name="RunManager" selected="Application.Son">
+    <configuration name="LeafTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suixin.mylearn.L4面向对象.L14static关键字.LeafTest" />
+      <module name="base_javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suixin.concurrent.Java里面的线程.线程再认识.Deamon线程.*" />
+          <option name="PATTERN" value="com.suixin.mylearn.L4面向对象.L14static关键字.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -497,12 +541,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EndRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suixin.concurrent.Java里面的线程.启动和终止线程.理解中断.EndRunnable" />
-      <module name="upgrade_concurrent" />
+    <configuration name="Otherthing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suixin.mylearn.L4面向对象.Otherthing" />
+      <module name="base_javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suixin.concurrent.Java里面的线程.启动和终止线程.理解中断.*" />
+          <option name="PATTERN" value="com.suixin.mylearn.L4面向对象.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -510,12 +554,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HasInterrputException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suixin.concurrent.Java里面的线程.启动和终止线程.如何安全的终止线程.HasInterrputException" />
-      <module name="upgrade_concurrent" />
+    <configuration name="SingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suixin.mylearn.L4面向对象.L14static关键字.SingletonTest" />
+      <module name="base_javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suixin.concurrent.Java里面的线程.启动和终止线程.如何安全的终止线程.*" />
+          <option name="PATTERN" value="com.suixin.mylearn.L4面向对象.L14static关键字.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -523,12 +567,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartAndRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suixin.concurrent.Java里面的线程.线程再认识.start方法和run方法的区别.StartAndRun" />
-      <module name="upgrade_concurrent" />
+    <configuration name="Son" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suixin.mylearn.L4面向对象.L14static关键字.Son" />
+      <module name="base_javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suixin.concurrent.Java里面的线程.线程再认识.start方法和run方法的区别.*" />
+          <option name="PATTERN" value="com.suixin.mylearn.L4面向对象.L14static关键字.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -551,11 +595,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Son" />
+        <item itemvalue="Application.LeafTest" />
+        <item itemvalue="Application.Otherthing" />
+        <item itemvalue="Application.SingletonTest" />
         <item itemvalue="Application.VolatileUnsafe" />
-        <item itemvalue="Application.DaemonThread" />
-        <item itemvalue="Application.StartAndRun" />
-        <item itemvalue="Application.HasInterrputException" />
-        <item itemvalue="Application.EndRunnable" />
       </list>
     </recent_temporary>
   </component>
@@ -596,7 +640,10 @@
       <workItem from="1570371641488" duration="222000" />
       <workItem from="1570465821315" duration="2000" />
       <workItem from="1571465569805" duration="7320000" />
-      <workItem from="1571551480000" duration="8848000" />
+      <workItem from="1571551480000" duration="9164000" />
+      <workItem from="1571593333208" duration="233000" />
+      <workItem from="1571640756192" duration="598000" />
+      <workItem from="1571719470186" duration="7988000" />
     </task>
     <task id="LOCAL-00001" summary="线程再认识">
       <created>1563040626637</created>
@@ -661,7 +708,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567409724889</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="修改了部分代码，提高可读性">
+      <created>1571562354969</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1571562354969</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -697,7 +751,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141733000" />
+    <option name="totallyTimeSpent" value="150868000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -709,11 +763,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.84024894" visible="true" weight="0.29959786" />
-      <window_info id="Structure" order="1" sideWeight="0.15975104" side_tool="true" visible="true" weight="0.29959786" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7989276" visible="true" weight="0.27949062" />
+      <window_info id="Structure" order="1" sideWeight="0.31914893" side_tool="true" weight="0.3507109" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -722,7 +775,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32890365" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32681563" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43435755" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.6031496" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -794,64 +847,14 @@
     <MESSAGE value="1.Fork/Join机制同步和异步&#10;2.根据Fork/Join异步机制实现工具类FindFileByName和FindFileByEnd" />
     <MESSAGE value="新增加spring学习模块" />
     <MESSAGE value="在commons模块加入了部分爬虫测试代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="在commons模块加入了部分爬虫测试代码" />
+    <MESSAGE value="修改了部分代码，提高可读性" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了部分代码，提高可读性" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/JAVA/JDK8/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="2131" column="19" selection-start-line="2131" selection-start-column="19" selection-end-line="2131" selection-end-column="19" />
-          <folding>
-            <element signature="e#56437#56438#0" expanded="true" />
-            <element signature="e#56514#56515#0" expanded="true" />
-            <element signature="e#66457#66458#0" expanded="true" />
-            <element signature="e#66495#66496#0" expanded="true" />
-            <element signature="e#82971#82972#0" expanded="true" />
-            <element signature="e#83020#83021#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_commons/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="61" column="47" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_dependences/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="221" selection-start-line="221" selection-end-line="233" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_commons/src/test/java/TestDownloadForM3U8ByMutil3.java" />
-    <entry file="jar://D:/JAVA/JDK8/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="214" column="29" selection-start-line="214" selection-start-column="29" selection-end-line="214" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_commons/src/test/java/pachong/PaChongForShenMaDianYing2.java" />
-    <entry file="file://$PROJECT_DIR$/base_javaweb/src/main/webapp/Test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_commons/src/test/java/TestPaChongUtils.java" />
-    <entry file="file://$PROJECT_DIR$/my_commons/src/test/java/TestFindFileByEndUtils.java" />
     <entry file="file://$PROJECT_DIR$/my_commons/src/test/java/TestDownloadForM3U8ByMutil.java" />
     <entry file="file://$PROJECT_DIR$/my_commons/src/test/java/TestPaChong2.java" />
     <entry file="file://$PROJECT_DIR$/my_commons/src/test/java/TestDownloadForM3U8ByMutil2.java" />
@@ -870,13 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_commons/src/test/java/chazhao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -962,26 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="503">
           <caret line="66" column="1" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_commons/src/test/java/pachong/PaChongForShenMaDianYing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_commons/src/test/java/pachong/MutilPaChong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="78" column="61" selection-start-line="78" selection-start-column="61" selection-end-line="78" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1103,34 +1079,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/启动和终止线程/理解中断/EndRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/启动和终止线程/三种启动线程的方式/NewThreadByThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/启动和终止线程/如何安全的终止线程/HasInterrputException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/启动和终止线程/UseJoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/JAVA/JDK8/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1142,49 +1090,196 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/启动和终止线程/理解中断/EndRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/启动和终止线程/如何安全的终止线程/HasInterrputException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/启动和终止线程/三种启动线程的方式/NewThreadByThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/启动和终止线程/UseJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程再认识/start方法和run方法的区别/StartAndRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
+        <state relative-caret-position="874">
           <caret line="48" selection-start-line="4" selection-end-line="48" />
           <folding>
             <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程再认识/Deamon线程/DaemonThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
+        <state relative-caret-position="722">
           <caret line="38" selection-start-line="4" selection-end-line="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程间共享/volatile关键字/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
+        <state>
           <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程间共享/volatile关键字/TestSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="171">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程间共享/volatile关键字/VolatileUnsafe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="228">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_commons/src/test/java/pachong/PaChongForShenMaDianYing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/L14static关键字/SingletonDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_commons/src/test/java/pachong/MutilPaChong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="78" column="61" selection-start-line="78" selection-start-column="61" selection-end-line="78" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_commons/src/test/java/chazhao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/upgrade_concurrent/src/main/java/com/suixin/concurrent/Java里面的线程/线程间共享/ThreadLocal对象/UseThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="69" selection-start-line="2" selection-end-line="69" />
+        <state relative-caret-position="209">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/L14static关键字/SingletonDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/Otherthing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding>
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/L14static关键字/JDBCUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="50" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/开发学习资料/进阶视频/基础JavaSE/尚硅谷_康师傅2019新版—30天搞定Java核心技术/文档/第1部分：Java基础编程/尚硅谷_宋红康_第6章_面向对象编程(下)/Son.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/L14static关键字/SingletonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/L14static关键字/LeafTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="74" selection-end-column="1" />
+          <folding>
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_javase/src/main/java/com/suixin/mylearn/L4面向对象/L14static关键字/Son.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-427">
+          <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1239,11 +1334,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|upgrade_spring</last-edited>
+          <last-edited>base_javase</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
