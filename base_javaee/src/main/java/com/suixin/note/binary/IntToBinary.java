@@ -28,7 +28,7 @@ public class IntToBinary {
         System.out.println("the 4|6 is "+Integer.toBinaryString(4|6));
         //the 4   is 100
         //the 6   is 110
-        //the 4|6 is 0
+        //the 4|6 is 110
 
         //非
         System.out.println("the ~4  is "+Integer.toBinaryString(~4));
@@ -60,8 +60,8 @@ public class IntToBinary {
         //1
         //the -6>>>2 is 111111111111111111111111111110
 
-        //取模操作 a%(2^n) 等价于a&（2^(n-1)）
-        System.out.println("the 915 % 16 is "+ (915%16)+" or "+(915&(16-1)));
+        //取模操作 a%(2^n) 等价于a&（2^n-1)
+        System.out.println("the 915 % 16 is "+ (1917%16)+" or "+(1917&15));
         //注意位运算速度远快于这种乘除法或者取模
     }
 }

@@ -9,6 +9,8 @@ import java.util.Arrays;
  */
 public class 数组初始化 {
     public static void main(String[] args) {
+        int[] ids = new int[]{1001,1002,1003,1004};
+        int[] a ={1,2,3};
         //动态初始化,先规定长度
         String[] names = new String[5];
         names[0] = "acheng";

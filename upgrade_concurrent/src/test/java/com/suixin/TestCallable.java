@@ -1,6 +1,6 @@
 package com.suixin;
 
-import com.suixin.concurrent.Java里面的线程.线程间共享.volatile关键字.Singleton;
+import com.suixin.concurrent.L1Java里面的线程.L3线程间共享.L2Volatile关键字.Singleton;
 
 import java.util.concurrent.*;
 
