@@ -1,17 +1,14 @@
-package com.suixin;
-
-import com.suixin.concurrent.L1线程间共享和协作.L3线程间共享.L2Volatile关键字.Singleton;
+package com.suixin.concurrent.L1线程间共享和协作.L3线程间共享.L2Volatile关键字;
 
 import java.util.concurrent.*;
 
 /**
- * @Description 测试Callable接口获取返回值
- * @Date 2019/7/23
- * @Created by acheng
+ * @Description 测试多线程
+ * @Auther:acheng
  */
-public class TestCallable {
+public class TestSingleton {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        Callable<Singleton> callable= new Callable<Singleton>() {
+        Callable<Singleton>  callable= new Callable<Singleton>() {
             @Override
             public Singleton call() throws Exception {
                 return Singleton.getSingleton();
@@ -24,9 +21,9 @@ public class TestCallable {
         Future<Singleton> f2 = es.submit(callable);
         Singleton s1 = f1.get();
         Singleton s2 = f2.get();
-        System.out.println(s1 == s2);//true
+        System.out.println(s1 == s2);
         System.out.println(s1);
-        System.out.println(s2);//地址值相同
-        es.shutdown();//关闭线程服务
+        System.out.println(s2);
+        es.shutdown();
     }
 }
