@@ -11,7 +11,8 @@ public class NewThreadStart {
         System.out.println(Thread.currentThread().getName());//注意，这里打印的是主线程的名字：main
         //1、继承Thread类
         NewThreadByThread newThreadByThread = new NewThreadByThread();
-        newThreadByThread.run();//执行重写的run方法，打印继承Thread开始的线程
+        newThreadByThread.start();//执行重写的run方法，打印继承Thread开始的线程
+
         System.out.println(newThreadByThread.getName());//Thread-0
 
         //2、实现Runnable接口
